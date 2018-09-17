@@ -98,13 +98,13 @@ instructions if they are more clear.*
       sudo apt-get install git
       ```
 
-  1. Red Hat-based Linux systems: copy and paste the following into your
-     terminal Window then press Enter.
+   1. Red Hat-based Linux systems: copy and paste the following into your
+      terminal Window then press Enter.
 
-     ```shell
-     sudo yum upgrade
-     sudo yum install git
-     ```
+      ```shell
+      sudo yum upgrade
+      sudo yum install git
+      ```
 
 1. Test your installation by running `git --version` in your Terminal
    application. If the installation succeeded a version number should be displayed.
