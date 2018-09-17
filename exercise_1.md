@@ -1,7 +1,10 @@
-## Exercise 1 - Creating a Local Repository & Pushing to Github [5 min]
+# Exercise 1 - Creating a Local Repository & Pushing to Github
 
 *In this exercise you will create a new Git repository, push it up to GitHub,
 and them commit & push a subsequent change.*
+
+#### Prerequisites:
+  * Git Installation
 
 __You can choose to do the next steps by command line or with the GitHub desktop
 tool.__
@@ -25,25 +28,31 @@ tool.__
 1. Now press 'Commit to Master.'
 1. To publish your repository online press `Publish Repository`
 
-### Option B Initializing the Git Repo, Command Line
+### Option B - Command Line
 1. Open the terminal application ('Terminal' for Mac and Linux, 'Git Bash' for Windows) and
 1. Set your git configuration variables. By the following commands:
-   ```
+
+   ```shell
    git config --global user.name "Your Name"
    git config --global user.email "YourEmail@email.com"
    ```
+
 1. To create the project directory and initialize a git repository type:
-   ```
+
+   ```shell
    cd ~
    mkdir First-Repo
    cd First-Repo
    git init
    ```
+
 1. Create a readme file and open it in the nano text editor.
-   ```
+
+   ```shell
    touch readme.md
    nano readme.md
    ```
+
 1. Add the text `# Hello World` to the file and save ('Ctrl+X', 'Y', 'Enter').
 1. Type `git status` to see the files that have been changed. Notice that the
    readme file is unstaged.
@@ -59,7 +68,8 @@ tool.__
 1. Press 'Create Repository'
 1. Copy the link in the URL bar of your browser.
 1. Back in your Terminal window type:
-   ```
+
+   ```shell
    git remote add origin "your link goes here"
    git push -u origin master
    ```

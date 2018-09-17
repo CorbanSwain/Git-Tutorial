@@ -1,4 +1,4 @@
-# Getting started with Git and GitHub
+# Getting Started with Git and GitHub
 
 ## Creating A GitHub Account
 *You'll need a GitHub account to use Git most effectively, if you already have
