@@ -111,7 +111,7 @@ instructions if they are more clear.*
 
 #### Git Extensions - Visual Tool
 *I haven't actually used a visual tool on Linux, and GitHub Desktop is [still
-in development](https://github.com/desktop/desktop/issues/1525) for such operating systems. 
+in development](https://github.com/desktop/desktop/issues/1525) for such operating systems.
 See a full list of visual tools for Linux
 [here](https://git-scm.com/download/gui/linux)*
 
